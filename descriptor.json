@@ -1,0 +1,8 @@
+{
+    "title": "S. Das Human MRI Phantom",
+    "description": "Human Brain phantom scans, Multiple MRI scans of a single human phantom over 11 years, T1 weighted images and others on 13 scanner in 6 sites accross North America. The data are available in minc format.",
+    "authors": "McGill Center for Integrative Neuroscience",
+    "licenses": "CC BY-ND",
+    "contact": "mcin-conp-admin.neuro@mcgill.ca"
+}
+
