@@ -1,46 +1,40 @@
 {
-    "schema": "https://github.com/biocaddie/DATS/blob/master/dataset_schema.json",
     "title": "Multicenter Single Subject Human MRI Phantom",
     "description": "Human Brain phantom scans, Multiple MRI scans of a single human phantom over 11 years, T1 weighted images and others on 13 scanner in 6 sites accross North America. The data are available in minc format. ",
     "dates": [ 
-	{
-            "$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+        {
             "@type": "Date",
-            "date": "2008-04-25",
-            "type": [
-                {
-                   "$schema": "https://w3id.org/dats/schema/annotation_schema.json",
-                   "@type": "Annotation",
-                    "value": "Start Date",
-                    "valueIRI": ""
-                }
-            ]
-	},
-	{
-            "$schema": "https://w3id.org/dats/schema/date_info_schema.json",
-            "@type": "Date",
-            "date": "2019-04-15",
-            "type": [
-                {
-                   "$schema": "https://w3id.org/dats/schema/annotation_schema.json",
-                   "@type": "Annotation",
-                    "value": "End Date",
-                    "valueIRI": ""
-                }
-            ]
-	}
-
-    ],
-    "creators": {
-        "name": "McGill Center for Integrative Neuroscience",
-        "abbreviation": "MCIN"
-    },
-    "storedIn": {
-            "identifier": "CONP open data",
-            "name": "CONP",
-            "access": "https://phantom-dev.loris.ca"
+            "date": "2008-04-25 00:00:00",
+            "type": {
+                "@type": "Annotation",
+                "value": "Start Date"
+            }
         },
-    "type": [
+        {
+            "@type": "Date",
+            "date": "2019-04-15 00:00:00",
+            "type": {
+                "@type": "Annotation",
+                "value": "End Date"
+            }
+        }
+    ],
+    "creators": [
+        {
+            "@type": "Organization",
+            "name": "McGill Center for Integrative Neuroscience",
+            "abbreviation": "MCIN"
+        }
+    ],
+    "storedIn": {
+        "identifier": "CONP open data",
+        "name": "CONP",
+        "access": {
+            "@type": "Access",
+            "url": "https://phantom-dev.loris.ca"
+        }
+    },
+    "types": [
         { 
             "information": {
                 "value": "MRI",
@@ -56,95 +50,99 @@
     ],
     "version": "1.0",
     "privacy": "Open Access",
-    "distributions": {
-        "$schema": "http://json-schema.org/draft-04/schema",
-        "@type": "DatasetDistribution",
-        "formats": [
-            {   
-                "description": "minc"
+    "distributions": [
+        {
+            "@type": "DatasetDistribution",
+            "formats": [
+                "minc"
+            ],
+            "size" : 38,
+            "unit" : {
+                "@type": "Annotation",
+                "value": "GB"
             }
-	],
-        "size" : "38",
-        "unit" : {
-            "$schema": "https://w3id.org/dats/schema/annotation_schema.json",
-            "@type": "Annotation",
-            "value": "GB",
-            "valueIRI": ""
         }
-    },
+    ],
     "isAbout": [
         {
-            "$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
             "@type": "BiologicalEntity",
             "name": "adult human"
         }
     ],
-    "spatialCoverage": {
-        "$schema": "https://w3id.org/dats/schema/place_schema.json",
-        "@type": "Place",
-        "name": "North America",
-        "description": "13 scanner in 6 sites accross North America"
-    },
-    "licenses": {
-        "$schema": "https://w3id.org/dats/schema/license_schema.json",
-        "@type": "Licence",
-        "name": "CC BY-ND",
-        "version": "4.0"
-    },
+    "spatialCoverage": [
+        {
+            "@type": "Place",
+            "name": "North America",
+            "description": "13 scanner in 6 sites accross North America"
+        }
+    ],
+    "licenses": [
+        {
+            "@type": "License",
+            "name": "CC BY-ND",
+            "version": "4.0"
+        }
+    ],
     "aggregation": "instance of dataset",
     "dimensions": [
         {
-            "$schema": "https://w3id.org/dats/schema/dimension_schema.json",
             "@type": "Dimension",
-            "name" : "resting BOLD"
+            "name" : {
+                "@type": "Annotation",
+                "value": "resting BOLD"
+            }
         },
         {
-            "$schema": "https://w3id.org/dats/schema/dimension_schema.json",
             "@type": "Dimension",
-            "name" : "fieldmap BOLD"
+            "name" : {
+                "@type": "Annotation",
+                "value": "fieldmap BOLD"
+            }
         },
         {
-            "$schema": "https://w3id.org/dats/schema/dimension_schema.json",
             "@type": "Dimension",
-            "name" : "fieldmap DWI"
+            "name" : {
+                "@type": "Annotation",
+                "value": "fieldmap DWI"
+            }
         },
         {
-            "$schema": "https://w3id.org/dats/schema/dimension_schema.json",
             "@type": "Dimension",
-            "name" : "DWI 65 directions"
+            "name" : {
+                "@type": "Annotation",
+                "value": "DWI 65 directions"
+            }
         },
         {
-            "$schema": "https://w3id.org/dats/schema/dimension_schema.json",
             "@type": "Dimension",
-            "name" : "DWI 25 directions"
+            "name" : {
+                "@type": "Annotation",
+                "value": "DWI 25 directions"
+            }
         },
         {
-            "$schema": "https://w3id.org/dats/schema/dimension_schema.json",
             "@type": "Dimension",
-            "name" : "T1w"
+            "name" : {
+                "@type": "Annotation",
+                "value": "T1w"
+            }
         },
         {
-            "$schema": "https://w3id.org/dats/schema/dimension_schema.json",
             "@type": "Dimension",
-            "name" : "T2w"
+            "name" : {
+                "@type": "Annotation",
+                "value": "T2w"
+            }
         }
     ],
     "keywords": [
         {
-            "$schema": "https://w3id.org/dats/schema/annotation_schema.json",
             "@type": "Annotation",
-            "information": {
-                "value": "Phantom",
-                "valueIRI": ""
-            }
-        },	
+            "value": "Phantom"
+        },
         {
-            "$schema": "https://w3id.org/dats/schema/annotation_schema.json",
             "@type": "Annotation",
-            "information": {
-                "value": "MRI",
-                "valueIRI": ""
-            }
+            "value": "MRI"
         }
     ],
     "extraProperties": [
@@ -158,4 +156,3 @@
         }
     ]
 }
-
