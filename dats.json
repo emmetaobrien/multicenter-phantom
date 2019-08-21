@@ -26,14 +26,6 @@
             "abbreviation": "MCIN"
         }
     ],
-    "storedIn": {
-        "identifier": "CONP open data",
-        "name": "CONP",
-        "access": {
-            "@type": "Access",
-            "url": "https://phantom-dev.loris.ca"
-        }
-    },
     "types": [
         { 
             "information": {
@@ -60,6 +52,10 @@
             "unit" : {
                 "@type": "Annotation",
                 "value": "GB"
+            },
+            "access" : {
+                "@type": "Access",
+                "landingPage" : "https://phantom-dev.loris.ca"
             }
         }
     ],
