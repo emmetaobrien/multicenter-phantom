@@ -149,6 +149,30 @@
                     "value": "521"
                 }
             ]
-        }
+        },
+		{
+			"category": "logo",
+			"values": [
+				{
+					"value": "logo.png"
+				}
+			]
+		},
+		{
+			"category": "files",
+			"values": [
+				{
+					"value": "2710"
+				}
+			]
+		},
+		{
+			"category": "subjects",
+			"values": [
+				{
+					"value": "1"
+				}
+			]
+		}
     ]
 }
