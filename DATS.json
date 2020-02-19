@@ -55,7 +55,8 @@
             },
             "access" : {
                 "@type": "Access",
-                "landingPage" : "https://phantom-dev.loris.ca"
+                "landingPage" : "https://phantom.loris.ca",
+		"annotation": "registered"
             }
         }
     ],
