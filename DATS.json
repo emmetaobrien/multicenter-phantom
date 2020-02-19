@@ -56,7 +56,11 @@
             "access" : {
                 "@type": "Access",
                 "landingPage" : "https://phantom.loris.ca",
-		"annotation": "registered"
+				"authorizations": [
+					{
+						"value": "registered"
+					}
+				]
             }
         }
     ],
