@@ -58,7 +58,7 @@
                 "landingPage" : "https://phantom.loris.ca",
 				"authorizations": [
 					{
-						"value": "registered"
+						"value": "private"
 					}
 				]
             }
