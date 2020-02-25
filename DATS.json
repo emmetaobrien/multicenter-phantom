@@ -46,7 +46,7 @@
         {
             "@type": "DatasetDistribution",
             "formats": [
-                "minc"
+                "MINC"
             ],
             "size" : 38,
             "unit" : {
