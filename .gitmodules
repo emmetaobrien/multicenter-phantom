@@ -1,0 +1,5 @@
+[submodule "HCPUR100-Template"]
+	path = HCPUR100-Template
+	url = https://github.com/emmetaobrien/HCPUR100-Template
+	branch = master
+	datalad-id = 4df4b140-758e-11e9-9782-000c299164f1
