@@ -1,6 +1,6 @@
 {
     "title": "Multicenter Single Subject Human MRI Phantom",
-    "description": "Human Brain phantom scans, Multiple MRI scans of a single human phantom over 11 years, T1 weighted images and others on 13 scanner in 6 sites accross North America. The data are available in minc format.",
+    "description": "Human Brain phantom scans, Multiple MRI scans of a single human phantom over 11 years, T1 weighted images and others on 13 scanner in 6 sites across North America. The data are available in minc format.",
     "dates": [ 
         {
             "@type": "Date",
@@ -54,7 +54,7 @@
         {
             "@type": "DatasetDistribution",
             "formats": [
-                "minc"
+                "MINC"
             ],
             "size" : 38,
             "unit" : {
@@ -63,7 +63,12 @@
             },
             "access" : {
                 "@type": "Access",
-                "landingPage" : "https://phantom-dev.loris.ca"
+                "landingPage" : "https://phantom.loris.ca",
+				"authorizations": [
+					{
+						"value": "private"
+					}
+				]
             }
         }
     ],

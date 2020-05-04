@@ -1,4 +1,4 @@
-# PREVENT-AD open Dataset
+# Multicenter Single Subject Human MRI Phantom Dataset
 
 ### Overview 
 
