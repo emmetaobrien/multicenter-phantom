@@ -1,7 +1,7 @@
 {
     "title": "Multicenter Single Subject Human MRI Phantom",
     "description": "Human Brain phantom scans, Multiple MRI scans of a single human phantom over 11 years, T1 weighted images and others on 13 scanner in 6 sites across North America. The data are available in minc format.",
-    "dates": [ 
+    "dates": [
         {
             "@type": "Date",
             "date": "2008-04-25 00:00:00",
@@ -35,7 +35,7 @@
 	}
     ],
     "types": [
-        { 
+        {
             "information": {
                 "value": "MRI",
                 "valueIRI": ""
@@ -49,7 +49,7 @@
         }
     ],
     "version": "1.0",
-    "privacy": "Open Access",
+    "privacy": "open",
     "distributions": [
         {
             "@type": "DatasetDistribution",
