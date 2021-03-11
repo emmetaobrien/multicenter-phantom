@@ -54,7 +54,7 @@
                 "MINC",
                 "JSON"
             ],
-            "size" : 38,
+            "size" : 40,
             "unit" : {
                 "value": "GB"
             },
@@ -168,7 +168,7 @@
 			"category": "files",
 			"values": [
 				{
-					"value": "2710"
+					"value": "3771"
 				}
 			]
 		},
