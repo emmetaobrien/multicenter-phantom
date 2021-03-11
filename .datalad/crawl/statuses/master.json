@@ -1,6 +1,26 @@
 {
   "db_version": 1,
   "files": {
+    "963271/MNI_SCAN1_20101125/images/images": {
+      "filename": "images",
+      "mtime": 1571837734,
+      "size": 1308
+    },
+    "963271/MNI_SCAN1_20101125/images/phantom_963271_MNI_SCAN1_20101125_fieldmapDWI_001.mnc": {
+      "filename": "phantom_963271_MNI_SCAN1_20101125_fieldmapDWI_001.mnc",
+      "mtime": 1613145198,
+      "size": 350470
+    },
+    "963271/MNI_SCAN1_20101125/visit.json": {
+      "filename": "MNI_SCAN1_20101125",
+      "mtime": 1613145198,
+      "size": 190
+    },
+    "963271/candidate.json": {
+      "filename": "963271",
+      "mtime": 1613145198,
+      "size": 2173
+    },
     "phantom_397552_SLC_20150814_bold_001.mnc": {
       "filename": "phantom_397552_SLC_20150814_bold_001.mnc",
       "mtime": 1571837734,
