@@ -74,8 +74,14 @@
     ],
     "isAbout": [
         {
-            "@type": "BiologicalEntity",
-            "name": "adult human"
+              "identifier": {
+                  "identifier": "9606",
+                  "identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606"
+              },
+              "name":"Homo sapiens"
+        },
+        {
+            "name": "adult"
         }
     ],
     "spatialCoverage": [
