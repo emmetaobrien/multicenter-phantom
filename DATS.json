@@ -1,9 +1,8 @@
 {
     "title": "Multicenter Single Subject Human MRI Phantom",
-    "description": "Human Brain phantom scans, Multiple MRI scans of a single human phantom over 11 years, T1 weighted images and others on 13 scanner in 6 sites across North America. The data are available in minc format.",
-    "dates": [
+    "description": "Longitudinal brain scans of a single human phantom acquired on multiple MRI devices across North America over a period of 11 years. In addition to the human brain images, lego phantom scans have been acquired in parallel for quality assessments over time across sites.",
+    "dates": [ 
         {
-            "@type": "Date",
             "date": "2008-04-25 00:00:00",
             "type": {
                 "@type": "Annotation",
@@ -11,7 +10,6 @@
             }
         },
         {
-            "@type": "Date",
             "date": "2019-04-15 00:00:00",
             "type": {
                 "@type": "Annotation",
@@ -21,7 +19,6 @@
     ],
     "creators": [
         {
-            "@type": "Organization",
             "name": "McGill Center for Integrative Neuroscience",
             "abbreviation": "MCIN"
         },
@@ -35,7 +32,7 @@
 	}
     ],
     "types": [
-        {
+        { 
             "information": {
                 "value": "MRI",
                 "valueIRI": ""
@@ -43,26 +40,25 @@
         },
         {
             "information": {
-                "value": "Quality Control Subject",
+                "value": "quality control subject",
                 "valueIRI": "http://uri.interlex.org/base/ilx_0381893"
             }
         }
     ],
-    "version": "1.0",
+    "version": "2.0",
     "privacy": "open",
     "distributions": [
         {
             "@type": "DatasetDistribution",
             "formats": [
-                "MINC"
+                "MINC",
+                "JSON"
             ],
-            "size" : 38,
+            "size" : 40,
             "unit" : {
-                "@type": "Annotation",
                 "value": "GB"
             },
             "access" : {
-                "@type": "Access",
                 "landingPage" : "https://phantom.loris.ca",
 				"authorizations": [
 					{
@@ -86,9 +82,8 @@
     ],
     "spatialCoverage": [
         {
-            "@type": "Place",
             "name": "North America",
-            "description": "13 scanner in 6 sites accross North America"
+            "description": "13 scanners in 6 sites accross North America"
         }
     ],
     "licenses": [
@@ -101,62 +96,46 @@
     "aggregation": "instance of dataset",
     "dimensions": [
         {
-            "@type": "Dimension",
             "name" : {
-                "@type": "Annotation",
                 "value": "resting BOLD"
             }
         },
         {
-            "@type": "Dimension",
             "name" : {
-                "@type": "Annotation",
                 "value": "fieldmap BOLD"
             }
         },
         {
-            "@type": "Dimension",
             "name" : {
-                "@type": "Annotation",
                 "value": "fieldmap DWI"
             }
         },
         {
-            "@type": "Dimension",
             "name" : {
-                "@type": "Annotation",
                 "value": "DWI 65 directions"
             }
         },
         {
-            "@type": "Dimension",
             "name" : {
-                "@type": "Annotation",
                 "value": "DWI 25 directions"
             }
         },
         {
-            "@type": "Dimension",
             "name" : {
-                "@type": "Annotation",
-                "value": "T1w"
+                "value": "T1W"
             }
         },
         {
-            "@type": "Dimension",
             "name" : {
-                "@type": "Annotation",
-                "value": "T2w"
+                "value": "T2W"
             }
         }
     ],
     "keywords": [
         {
-            "@type": "Annotation",
-            "value": "Phantom"
+            "value": "phantom"
         },
         {
-            "@type": "Annotation",
             "value": "MRI"
         }
     ],
@@ -189,7 +168,7 @@
 			"category": "files",
 			"values": [
 				{
-					"value": "2710"
+					"value": "3771"
 				}
 			]
 		},
@@ -200,6 +179,46 @@
 					"value": "1"
 				}
 			]
-		}
+		},
+        {
+            "category": "origin_consortium",
+            "values": [
+                {
+                    "value": "IBIS"
+                }
+            ]
+        },
+        {
+            "category": "origin_institution",
+            "values": [
+                {
+                    "value": "McGill Centre for Integrative Neuroscience"
+                }
+            ]
+        },
+        {
+            "category": "origin_city",
+            "values": [
+                {
+                    "value": "Montreal"
+                }
+            ]
+        },
+        {
+            "category": "origin_province",
+            "values": [
+                {
+                    "value": "Quebec"
+                }
+            ]
+        },
+        {
+            "category": "origin_country",
+            "values": [
+                {
+                    "value": "Canada"
+                }
+            ]
+        }
     ]
 }
