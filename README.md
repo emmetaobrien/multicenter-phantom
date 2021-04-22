@@ -62,3 +62,6 @@ All MRI scanners were manufacured by SIEMENS.
 | UNH          | University of North Carolina Hospital    | TrioTim       | Syngo MRI B15, B17 & B19  |
 | UNR          | University of North Carolina Research.   | TrioTim       | Syngo MR B17 & B19        |
 
+### Acknowledgments
+
+The IBIS Network (https://www.ibis-network.org/) and the NIH (https://www.nih.gov/).
