@@ -3,25 +3,20 @@
     "description": "Human Brain phantom scans, Multiple MRI scans of a single human phantom over 11 years, T1 weighted images and others on 13 scanner in 6 sites across North America. The data are available in minc format.",
     "dates": [
         {
-            "@type": "Date",
             "date": "2008-04-25 00:00:00",
             "type": {
-                "@type": "Annotation",
                 "value": "start date"
             }
         },
         {
-            "@type": "Date",
             "date": "2019-04-15 00:00:00",
             "type": {
-                "@type": "Annotation",
                 "value": "end date"
             }
         }
     ],
     "creators": [
         {
-            "@type": "Organization",
             "name": "McGill Center for Integrative Neuroscience",
             "abbreviation": "MCIN"
         },
@@ -38,7 +33,7 @@
         {
             "information": {
                 "value": "MRI",
-                "valueIRI": ""
+                "valueIRI": "http://uri.interlex.org/ilx_0779748"
             }
         },
         {
@@ -52,17 +47,14 @@
     "privacy": "open",
     "distributions": [
         {
-            "@type": "DatasetDistribution",
             "formats": [
                 "MINC"
             ],
             "size" : 38,
             "unit" : {
-                "@type": "Annotation",
                 "value": "GB"
             },
             "access" : {
-                "@type": "Access",
                 "landingPage" : "https://phantom.loris.ca",
 				"authorizations": [
 					{
@@ -73,21 +65,25 @@
         }
     ],
     "isAbout": [
+		{
+        	"identifier": {
+            	"identifier": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606",
+				"identifierSource": "NCBI Taxonomy Database"
+        	},
+        	"name":"Homo sapiens"
+    	},
         {
-            "@type": "BiologicalEntity",
             "name": "adult human"
         }
     ],
     "spatialCoverage": [
         {
-            "@type": "Place",
             "name": "North America",
-            "description": "13 scanner in 6 sites accross North America"
+            "description": "13 scanners in 6 sites accross North America"
         }
     ],
     "licenses": [
         {
-            "@type": "License",
             "name": "CC BY-ND",
             "version": "4.0"
         }
@@ -95,62 +91,46 @@
     "aggregation": "instance of dataset",
     "dimensions": [
         {
-            "@type": "Dimension",
             "name" : {
-                "@type": "Annotation",
                 "value": "resting BOLD"
             }
         },
         {
-            "@type": "Dimension",
             "name" : {
-                "@type": "Annotation",
                 "value": "fieldmap BOLD"
             }
         },
         {
-            "@type": "Dimension",
             "name" : {
-                "@type": "Annotation",
                 "value": "fieldmap DWI"
             }
         },
         {
-            "@type": "Dimension",
             "name" : {
-                "@type": "Annotation",
                 "value": "DWI 65 directions"
             }
         },
         {
-            "@type": "Dimension",
             "name" : {
-                "@type": "Annotation",
                 "value": "DWI 25 directions"
             }
         },
         {
-            "@type": "Dimension",
             "name" : {
-                "@type": "Annotation",
                 "value": "T1w"
             }
         },
         {
-            "@type": "Dimension",
             "name" : {
-                "@type": "Annotation",
                 "value": "T2w"
             }
         }
     ],
     "keywords": [
         {
-            "@type": "Annotation",
             "value": "Phantom"
         },
         {
-            "@type": "Annotation",
             "value": "MRI"
         }
     ],
@@ -183,7 +163,7 @@
       		"category": "registrationPage",
       		"values": [
         		{
-          			"value": "https://openpreventad.loris.ca/login/request-account/"
+          			"value": "https://phantom.loris.ca/login/request-account/"
         		}
       		]
     	},
