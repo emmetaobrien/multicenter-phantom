@@ -1,6 +1,6 @@
 {
     "title": "Multicenter Single Subject Human MRI Phantom",
-    "description": "Human Brain phantom scans, Multiple MRI scans of a single human phantom over 11 years, T1 weighted images and others on 13 scanner in 6 sites across North America. The data are available in minc format.",
+    "description": "Longitudinal brain scans of a single human phantom acquired on multiple MRI devices across North America over a period of 11 years. In addition to the human brain images, lego phantom scans have been acquired in parallel for quality assessments over time across sites.",
     "dates": [
         {
             "date": "2008-04-25 00:00:00",
@@ -38,19 +38,20 @@
         },
         {
             "information": {
-                "value": "Quality Control Subject",
+                "value": "quality control subject",
                 "valueIRI": "http://uri.interlex.org/base/ilx_0381893"
             }
         }
     ],
-    "version": "1.0",
+    "version": "2.0",
     "privacy": "open",
     "distributions": [
         {
             "formats": [
-                "MINC"
+                "MINC",
+                "JSON"
             ],
-            "size" : 38,
+            "size" : 40,
             "unit" : {
                 "value": "GB"
             },
@@ -73,7 +74,14 @@
         	"name":"Homo sapiens"
     	},
         {
-            "name": "adult human"
+              "identifier": {
+                  	"identifier": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606",
+				   	        "identifierSource": "NCBI Taxonomy Database"
+              },
+              "name":"Homo sapiens"
+        },
+        {
+            "name": "adult"
         }
     ],
     "spatialCoverage": [
@@ -117,12 +125,12 @@
         },
         {
             "name" : {
-                "value": "T1w"
+                "value": "T1W"
             }
         },
         {
             "name" : {
-                "value": "T2w"
+                "value": "T2W"
             }
         }
     ],
@@ -171,7 +179,7 @@
 			"category": "files",
 			"values": [
 				{
-					"value": "2710"
+					"value": "3771"
 				}
 			]
 		},
@@ -182,6 +190,46 @@
 					"value": "1"
 				}
 			]
-		}
+		},
+        {
+            "category": "origin_consortium",
+            "values": [
+                {
+                    "value": "IBIS"
+                }
+            ]
+        },
+        {
+            "category": "origin_institution",
+            "values": [
+                {
+                    "value": "McGill Centre for Integrative Neuroscience"
+                }
+            ]
+        },
+        {
+            "category": "origin_city",
+            "values": [
+                {
+                    "value": "Montreal"
+                }
+            ]
+        },
+        {
+            "category": "origin_province",
+            "values": [
+                {
+                    "value": "Quebec"
+                }
+            ]
+        },
+        {
+            "category": "origin_country",
+            "values": [
+                {
+                    "value": "Canada"
+                }
+            ]
+        }
     ]
 }
