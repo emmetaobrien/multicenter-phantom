@@ -5,14 +5,12 @@
         {
             "date": "2008-04-25 00:00:00",
             "type": {
-                "@type": "Annotation",
                 "value": "start date"
             }
         },
         {
             "date": "2019-04-15 00:00:00",
             "type": {
-                "@type": "Annotation",
                 "value": "end date"
             }
         }
@@ -35,7 +33,7 @@
         {
             "information": {
                 "value": "MRI",
-                "valueIRI": ""
+                "valueIRI": "http://uri.interlex.org/ilx_0779748"
             }
         },
         {
@@ -49,7 +47,6 @@
     "privacy": "open",
     "distributions": [
         {
-            "@type": "DatasetDistribution",
             "formats": [
                 "MINC",
                 "JSON"
@@ -69,10 +66,17 @@
         }
     ],
     "isAbout": [
+		{
+        	"identifier": {
+            	"identifier": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606",
+				"identifierSource": "NCBI Taxonomy Database"
+        	},
+        	"name":"Homo sapiens"
+    	},
         {
               "identifier": {
                   	"identifier": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606",
-				  	"identifierSource": "NCBI Taxonomy Database"
+				   	        "identifierSource": "NCBI Taxonomy Database"
               },
               "name":"Homo sapiens"
         },
@@ -88,7 +92,6 @@
     ],
     "licenses": [
         {
-            "@type": "License",
             "name": "CC BY-ND",
             "version": "4.0"
         }
@@ -133,7 +136,7 @@
     ],
     "keywords": [
         {
-            "value": "phantom"
+            "value": "Phantom"
         },
         {
             "value": "MRI"
@@ -164,6 +167,14 @@
 				}
 			]
 		},
+		{
+      		"category": "registrationPage",
+      		"values": [
+        		{
+          			"value": "https://phantom.loris.ca/login/request-account/"
+        		}
+      		]
+    	},
 		{
 			"category": "files",
 			"values": [
