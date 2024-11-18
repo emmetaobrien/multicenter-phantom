@@ -2,3 +2,5 @@
 	id = 8de99b0e-5f94-11e9-9e05-52545e9add8e
 [datalad "metadata"]
 	nativetype = minc
+[credentials]
+    force-ask = true
