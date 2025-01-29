@@ -12,7 +12,7 @@ DWI acquisitions (fieldmapBOLD and fieldmapDWI).
 
 The human phantom data were collected once a year during two MRI sessions. Those two sessions were either performed the same day or with a few days apart.
 
-### Data organization and file format
+### Data organization and file format 
 
 Data are organized by `subject_ID/Visit_Label`. 
 
